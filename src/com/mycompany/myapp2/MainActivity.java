@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
 						public void onItemClick(AdapterView<?> parent, View view, int position, long id)
 							{
 								CheckableLayout l = (CheckableLayout) view;
-								((GridView)parent).setItemChecked(position, !l.isChecked());
+								((GridView)parent).setItemChecked(position, !(l.isChecked()));
 							}
 
 			
